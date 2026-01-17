@@ -1,0 +1,40 @@
+# Ignore build output directory
+/build
+/export
+
+# Ignore object files and dependent files
+.o
+.d
+
+#Ignore logs folder and log files
+/logs
+.log
+
+#Ignore lock files
+.lock
+
+.bin
+.pdi
+.peers.ini
+.repo.yaml
+.vitisWorkspace.json
+
+# modify
+/app_lab4
+/lab4.cache
+/lab4.gen
+/lab4.hw
+/lab4.ip_user_files
+/lab4.runs
+/lab4.sim
+/plat_lab4
+/.wsdata
+/.Xil
+/lab4.srcs/utils_1
+
+ip _upgrad.log
+lab4.xpr
+min_area_pfile.tmp
+*.jou
+*.log
+*.xsa
